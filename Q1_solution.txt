@@ -1,0 +1,11 @@
+In Machine Learning, Kernel function is a mathematical function that is used to compute similarity between pairs of data points in a given feature space. One pouplar type of kernel function is polynomial kernel function.
+Polynomial function is a mathematical function of the form f(x)=a^n*x^n+a^n-1*x^n-1+...+a^2*x^2+a^1*x^1+a^0
+where n is non negative integer
+a0,a1...an are constants
+In the context of machine learning ,polynomial kernel function is a type of kernel function that is defined as follows:
+k(x,y)=(x^Ty+c)^d
+x,y are data points in some feature space
+T is a transpose
+c is a constant
+d is positive integer that specifies degree of polynomial
+The polynomial kernel function is used in machine learning algorithms such as svm's to transform data points into higher dimensional feature space by doing so polynomial kernel function can capture complex nonlinear relationships between data points, which  can be useful for solving certain machine learning problems.

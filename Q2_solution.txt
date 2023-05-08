@@ -1,0 +1,5 @@
+Q2.  How can we implement an SVM with a polynomial kernel in Python using Scikit-learn?
+Code is written inside jupyter notebook and name is given as Q2_solution.ipynb
+In this code, I first generated a random classification dataset using "make_classification" function from scikit-learn.
+I then splited the dataset into training and testing sets using "train_test_split" function
+Next I created an instance of the SVC class from scikit learn and specify the kernel type as "poly" to indicate that we want to use a polynomial kernel. We also set the degree of polynomial to 3. This means that the kernel function will be of the form (x^T*y+c)^3 where c is coefficent or constant or hypermeters that control the influnece of higer order terms. I trained the SVM classifier on the training set using "fit" method and then make predictions on the testing set using "predict" method. Finally,I calculated the accuracy of the classifier using the "accurracy_score" function from scikit-learn 
